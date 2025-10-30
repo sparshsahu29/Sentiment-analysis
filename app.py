@@ -5,6 +5,11 @@ import tensorflow as tf
 import cv2
 import os
 
+import os
+os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
+
+
 app = Flask(__name__)
 model = load_model(os.path.join('models', 'sentiment.h5'))
 
