@@ -16,5 +16,4 @@ Live Demo 👉  https://sentiment-analysis-1-bgyb.onrender.com
 
 ---
 
-## 🏗️ Project Structure
 
